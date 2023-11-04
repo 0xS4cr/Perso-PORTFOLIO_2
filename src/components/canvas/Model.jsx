@@ -11,7 +11,7 @@ const Model = ({ isMobile }) => {
     <mesh>
       <hemisphereLight intensity={0.05} groundColor='black' />
       <spotLight
-        position={[1500, 800,1200]}
+        position={[550, 450,150]}
         angle={0.12}
         penumbra={1.5}
         intensity={0.7}
@@ -21,9 +21,9 @@ const Model = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={model.scene}
-        scale={isMobile ? 1.25 : 2.30}
-        position={isMobile ? [0, -2.2, 0] : [0, -2.5, -2.8]}
-        rotation={[-0.00, 45.0, -0.0]}
+        scale={isMobile ? 1.0 : 2.30}
+        position={isMobile ? [0, -2.5, 0] : [0, -2.2, -3.5]}
+        rotation={[-0.00, 7.1, -0.0]}
       />
     </mesh>
   );
@@ -34,7 +34,7 @@ const ModelCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 1024px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);

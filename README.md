@@ -1,8 +1,10 @@
 # Portfolio clément RENAUD
 
+Ce portfolio est une vitrine de mes compétences en développement front-end et de mon utilisation de technologies modernes pour créer des expériences utilisateur riches et interactives.
+
 # 🛠 Technologies Utilisées
 
-Ce portfolio est une vitrine de mes compétences en développement front-end et de mon utilisation de technologies modernes pour créer des expériences utilisateur riches et interactives.
+N'oubliez pas : les technologies ne sont qu'un moyen d'atteindre un objectif. Ce qui compte, c'est l'expérience utilisateur et la valeur que vous pouvez apporter à vos utilisateurs.
 
 ## Core Stack
 

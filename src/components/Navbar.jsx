@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-[#9CF574] text-[18px] font-bold cursor-pointer flex '>
             Clément RENAUD
           </p>
         </Link>

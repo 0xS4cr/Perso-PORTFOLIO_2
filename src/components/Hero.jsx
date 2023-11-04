@@ -11,11 +11,11 @@ const Hero = () => {
       >
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Front end <br className='sm:block hidden' /> Creativ <br className='sm:block hidden' /> <span className='text-[#915EFF]'>Developer</span>
+            FRONT AND CREATIV <br className='sm:block hidden' /> <span className='text-[#9CF574]'>Développeur</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br className='sm:block hidden' />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias suscipit magni commodi mollitia dolores architecto vero,?
+          <p className={`${styles.heroSubText} mt-2`}>
+          <br className='sm:block hidden' />
+          "Clément, développeur web et d'applications,<br className='sm:block hidden' />  s'adaptant à diverses technologies<br className='sm:block hidden' /> pour forger des solutions <br className='sm:block hidden' />qui répondent aux attentes mes clients." 
           </p>
         </div>
       </div>
@@ -25,17 +25,17 @@ const Hero = () => {
       <StarsCanvas />
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[30px] h-[54px] rounded-3xl border-2 border-secondary flex justify-center items-start p-3'>
             <motion.div
               animate={{
-                y: [0, 24, 0],
+                y: [0, 20, 0],
               }}
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-2 h-2 rounded-full bg-secondary mb-1'
             />
           </div>
         </a>
