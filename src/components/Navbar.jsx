@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <p className='text-[#9CF574] text-[22px] font-bold cursor-pointer flex '>
+          <p className='text-[#752eb3] text-[22px] font-bold cursor-pointer flex '>
             Clément RENAUD
           </p>
         </Link>
@@ -52,8 +52,8 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.title ? "text-black" : "text-secondary"
+              } hover:text-black text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -79,7 +79,7 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.title ? "black" : "text-secondary"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);

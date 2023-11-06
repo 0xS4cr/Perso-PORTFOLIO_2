@@ -10,8 +10,8 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            FRONT AND CREATIV <br className='sm:block hidden' /> <span className='text-[#9CF574]'>Développeur</span>
+          <h1 className={`${styles.heroHeadText} text-black`}>
+            FRONT AND CREATIV <br className='sm:block hidden' /> <span className='text-[#752eb3]'>Développeur</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2`}>
           <br className='sm:block hidden' />

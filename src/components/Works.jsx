@@ -67,15 +67,15 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
+        <h2 className={`${styles.sectionHeadText}text-[#752eb3]`}>Projets.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-black text-[19px] max-w-3xl leading-[30px]'
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo rem sit totam ducimus ipsum blanditiis soluta. Obcaecati minus laboriosam, nesciunt, quo sit quas tempora, laborum veritatis molestiae impedit atque exercitationem?
+          Voici une sélection de projets sur lesquels j'ai travaillé et qui ont été développés dans le cadre de ma formation avec OpenClassrooms, reflétant mon parcours d'apprentissage et mon engagement dans le développement de compétences en front-end
         </motion.p>
       </div>
 
