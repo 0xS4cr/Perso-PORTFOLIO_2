@@ -80,4 +80,4 @@ Fichiers pour les variables d'environnement, gardant les secrets et configuratio
 Fichiers de configuration pour PostCSS, Tailwind CSS et Vite, optimisant le processus de développement et de build.
 
 
-Cette structure est conçue pour être à la fois intuitive et évolutive, facilitant l'intégration de nouvelles fonctionnalités et technologies.
+Cette structure est conçue pour être à la fois intuitive et évolutive, facilitant l'intégration de nouvelles fonctionnalités et technologies .
