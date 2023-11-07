@@ -13,6 +13,14 @@
   color-scheme: dark;
 }
 
+.unselectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -23,22 +31,22 @@
   background: #ffffff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
-    #9CF574,
+    #752eb3,
     #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #9CF574,
+    #752eb3,
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .violet-gradient {
-  background: #9CF574;
-  background: linear-gradient(-90deg, #9CF574 0%, rgba(60, 51, 80, 0) 100%);
+  background: #752eb3;
+  background: linear-gradient(-90deg, #752eb3 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #9CF574 0%,
+    752eb3 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }

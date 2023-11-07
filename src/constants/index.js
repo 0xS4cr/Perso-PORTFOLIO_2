@@ -1,3 +1,4 @@
+import {booki,ohmyfood,sophie,kasa,bank,events} from "../assets";
 
 const navLinks = [
   {
@@ -34,6 +35,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: booki,
     source_code_link: "https://github.com/0xS4cr/Project_3_BOOKI",
   },
   {
@@ -54,84 +56,89 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    image: ohmyfood,
     source_code_link: "https://github.com/0xS4cr/Project_4_OHMYFOOD",
   },
   {
-    name: "Lorem9",
+    name: "SOPHIE BLUEL",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde pariatur illo ipsam, amet corrupti accusantium debitis beatae facere quibusdam quis error nihil repellendus sed laudantium fugiat dicta aliquid facilis?",
+      "Dans le cadre de ce projet, j'ai eu l'opportunité passionnante de me consacre à la conception du site portfolio d'une talentueuse architecte d'intérieur.Pour cela j'ai du mettre en place un système de login et modal 🏠✨",
     tags: [
       {
-        name: "Lorem10",
+        name: "integration",
         color: "blue-text-gradient",
       },
       {
-        name: "Lorem11",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "Lorem12",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/",
+    image: sophie,
+    source_code_link: "https://github.com/0xS4cr/Project_6_SOPHIE-BLUEL",
   }, {
-    name: "Lorem13",
+    name: "KASA",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde pariatur illo ipsam, amet corrupti accusantium debitis beatae facere quibusdam quis error nihil repellendus sed laudantium fugiat dicta aliquid facilis?",
+      "Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Le but de se projet est une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.",
     tags: [
       {
-        name: "Lorem14",
+        name: "vite_reactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "Lorem15",
+        name: "sass",
         color: "green-text-gradient",
       },
       {
-        name: "Lorem",
+        name: ".json",
         color: "pink-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/",
+    image: kasa,
+    source_code_link: "https://github.com/0xS4cr/Project_8_KASA",
   }, {
-    name: "Lorem16",
+    name: "724 EVENTS",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde pariatur illo ipsam, amet corrupti accusantium debitis beatae facere quibusdam quis error nihil repellendus sed laudantium fugiat dicta aliquid facilis?",
+      "Ce projet a eu pour but de reprendre le travail d'un premier dévellopeur, d'analyser le travail effectué de cibler les problèmes auquels le client est confronté. La correction de ces tests et à la mise en place de nouveau test a été la notion principale",
     tags: [
       {
-        name: "Lorem17",
+        name: "react_dev_tool",
         color: "blue-text-gradient",
       },
       {
-        name: "Lorem18",
+        name: "test_jest",
         color: "green-text-gradient",
       },
       {
-        name: "Lorem19",
+        name: "yarn",
         color: "pink-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/",
+    image: events,
+    source_code_link: "https://github.com/0xS4cr/Project_10_724-EVENTS",
   }, {
-    name: "Lorem20",
+    name: "ARGENT BANK",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti unde pariatur illo ipsam, amet corrupti accusantium debitis beatae facere quibusdam quis error nihil repellendus sed laudantium fugiat dicta aliquid facilis?",
+      "Le projet simule mon intégration chez Argent Bank comme développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. Je travaille à la mise en place du tableau de bord des utilisateurs.",
     tags: [
       {
-        name: "Lorem21",
+        name: "react_redux",
         color: "blue-text-gradient",
       },
       {
-        name: "Lorem22",
+        name: "swagger",
         color: "green-text-gradient",
       },
       {
-        name: "Lorem23",
+        name: "api_model",
         color: "pink-text-gradient",
       },
     ],
-    source_code_link: "https://github.com/",
+    image: bank,
+    source_code_link: "https://github.com/0xS4cr/Project_11_ARGENT-BANK",
   },
 ];
 

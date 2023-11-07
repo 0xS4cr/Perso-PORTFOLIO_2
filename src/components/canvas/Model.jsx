@@ -21,7 +21,7 @@ const Model = ({ isMobile }) => {
         object={model.scene}
         scale={isMobile ? 1.0 : 2.30}
         position={isMobile ? [0, -2.5, 0] : [0, -2.2, -3.5]}
-        rotation={[-0.00, 7.1, -0.0]}
+        rotation={[-0.00, 7.3, -0.0]}
       />
     </mesh>
   );

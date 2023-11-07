@@ -5,19 +5,17 @@ import { About, Contact, Hero, Navbar, Works } from "./components";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <div className="relative z-0 bg-primary">
         <div>
           <Navbar />
           <Hero />
-        </div>
-        <About />
-        <Works />
-        <div className='relative z-0'>
+          <About />
+          <Works />
           <Contact />
         </div>
       </div>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

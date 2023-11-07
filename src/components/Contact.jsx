@@ -71,7 +71,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className='text-white' >Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -86,7 +86,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Comment dois-je vous appeler?"
+              placeholder="Votre nom?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -97,7 +97,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="Quelle est votre adresse mail?"
+              placeholder="Votre adresse mail?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
